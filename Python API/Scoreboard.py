@@ -42,8 +42,8 @@ def get_away_team_scoreboard():
 def get_scoreboard():
     return jsonify({'scoreboard': get_scoreboard_list()})
 
-def getNBAStats():
-    teams.
+# def getNBAStats():
+#     teams.
 @app.route('/predictions')
 def get_predictions():
     with open(r"gnb_pca_model.pickle", "rb") as input_file:
